@@ -23,7 +23,6 @@ const Techstack: React.FC = () => {
               <div className="technology-item"><FaJs /><p>JavaScript</p></div>
               <div className="technology-item"><SiTypescript /><p>TypeScript</p></div>
               <div className="technology-item"><SiGo /><p>Go</p></div>
-              <div className="technology-item"><SiKotlin /><p>Kotlin</p></div>
             </div>
           </div>
 
@@ -33,11 +32,9 @@ const Techstack: React.FC = () => {
               <div className="technology-item"><SiDotnet /><p>ASP.NET</p></div>
               <div className="technology-item"><SiDotnet /><p>WPF</p></div>
               <div className="technology-item"><SiXamarin /><p>Xamarin</p></div>
-              <div className="technology-item"><SiSpringboot /><p>SpringBoot</p></div>
               <div className="technology-item"><FaNodeJs /><p>NodeJS</p></div>
               <div className="technology-item"><SiRedis /><p>Redis</p></div>
               <div className="technology-item"><SiRabbitmq /><p>RabbitMQ</p></div>
-              <div className="technology-item"><SiHandlebarsdotjs /><p>Handlebars</p></div>
               <div className="technology-item"><SiScikitlearn /><p>SCSS</p></div>
             </div>
           </div>
@@ -50,7 +47,6 @@ const Techstack: React.FC = () => {
               <div className="technology-item"><FaGitlab /><p>GitLab</p></div>
               <div className="technology-item"><FaDocker /><p>Docker</p></div>
               <div className="technology-item"><FaJira /><p>Jira</p></div>
-              <div className="technology-item"><SiCisco /><p>Cisco</p></div>
               <div className="technology-item"><SiVisualstudio /><p>Visual Studio</p></div>
             </div>
           </div>

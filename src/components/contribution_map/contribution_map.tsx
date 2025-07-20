@@ -20,7 +20,7 @@ const ContributionMap: React.FC = () => {
         <div className="react-github-calendar">
           <div className="calendar-wrapper">
             <GitHubCalendar
-              username="tjklint"
+              username="nevilsavaliya"
               blockSize={18}
               fontSize={16}
               theme={{

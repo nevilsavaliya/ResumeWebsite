@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 // Importing assets for project GIFs
-import investSmartGif from '../../assets/projects/InvestSmart.gif';
-import pokePCGif from '../../assets/projects/PokePC.gif';
-import privacyXPressoGif from '../../assets/projects/PrivacyXPresso.gif';
+import universityDataAnalysis from '../../assets/projects/universityDataAnalysis.gif';
+import jobStation from '../../assets/projects/jobStation.gif';
+import quickCarHire from '../../assets/projects/quickCarHire.gif';
 import portfolioGif from '../../assets/projects/Portfolio.gif'; 
 
 // Main container for all projects, handles layout and styling
@@ -211,12 +211,24 @@ const Projects: React.FC = () => {
       <SectionTitle>Projects</SectionTitle>
       <BigProjectsContainer>
         <ProjectContainer>
-          <img src={investSmartGif} alt="Invest Smart Project" />
-          <h3>Capital Coach</h3>
-          <p>A financial management tool designed to empower individuals with smart 
-             financial planning, integrating simplicity with effectiveness.</p>
+          <img src={jobStation} alt="Job Station" />
+          <h3>JobStation</h3>
+          <p>JobStation SimpliFies JobHiring Process With Data Driven Dashboards For Both Job Seeker And Employer To Take Better Data Driven Intelligence.</p>
           <div className="links">
-            <a href="https://github.com/tjklint/CapitalCoach" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/nevilsavaliya/JobStation" target="_blank" rel="noopener noreferrer">
+              <FaGithub /> See on GitHub
+            </a>
+            <a href="https://jobstation-hnid.onrender.com" target="_blank" rel="noopener noreferrer">
+              <FaGlobe /> Try it Out
+            </a>
+          </div>
+        </ProjectContainer>
+        <ProjectContainer>
+          <img src={quickCarHire} alt="Quick Car Hire Project" />
+          <h3>QuickCarHire</h3>
+          <p>QuickCarHire Simplifies Renting Car Efficiently With Its Technology Focused Approach Over Traditional Approach.</p>
+          <div className="links">
+            <a href="https://github.com/nevilsavaliya/quickcarhire" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
             <a href="#" onClick={handleComingSoonClick}>
@@ -224,29 +236,19 @@ const Projects: React.FC = () => {
             </a>
           </div>
         </ProjectContainer>
-        <ProjectContainer>
-          <img src={pokePCGif} alt="PokePC Project" />
-          <h3>PokePC</h3>
-          <p>PokePC is a Pokedex & a user-friendly web app for managing and organizing Pokemon collections, 
-             creating battle teams, and tracking Pokemon details, designed for enthusiasts at all levels.</p>
-          <div className="links">
-            <a href="https://github.com/tjklint/PokePC" target="_blank" rel="noopener noreferrer">
-              <FaGithub /> See on GitHub
-            </a>
-          </div>
-        </ProjectContainer>
       </BigProjectsContainer>
 
       <SmallProjectsContainer>
         <SmallProject>
-          <img src={privacyXPressoGif} alt="PrivacyXPresso Project" />
-          <h3>PrivacyXPresso</h3>
-          <p>PrivacyXPresso simplifies data deletion from big companies, enhancing online security with easy-to-use local tools.</p>
+          <img src={universityDataAnalysis} alt="University Data Analysis" />
+          <h3>PredictEd</h3>
+          <p>A university analytics and prediction platform that visualizes trends and future insights.
+            Designed to simplify academic planning through data-driven intelligence.</p>
           <div className="links">
-            <a href="https://github.com/tjklint/BellGeekfest2023" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/nevilsavaliya/UniversityDataAnalysis" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
-            <a href="#" onClick={handleComingSoonClick}>
+            <a href="https://universitydataanalysis-9ojbpfrm5vubg4tf5lrpp2.streamlit.app/" target="_blank" rel="noopener noreferrer">
               <FaGlobe /> Try it Out
             </a>
           </div>
@@ -256,7 +258,7 @@ const Projects: React.FC = () => {
           <h3>Portfolio</h3>
           <p>Built in React, this portfolio website is built to last and showcase my best work and skills. Thanks for checking it out!</p>
           <div className="links">
-            <a href="https://github.com/tjklint/tjklint.github.io" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/nevilsavaliya/ResumeWebsite" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
             <a href="https://tjklint.github.io" onClick={handleComingSoonClick}>
@@ -268,7 +270,7 @@ const Projects: React.FC = () => {
           <h3>More Projects Coming Soon...</h3>
           <p>Stay tuned!</p>
           <div className="links">
-            <a href="https://github.com/tjklint" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/nevilsavaliya/ResumeWebsite" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
             <a href="https://tjklint.com" target="_blank" rel="noopener noreferrer">

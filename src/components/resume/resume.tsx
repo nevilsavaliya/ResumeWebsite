@@ -16,8 +16,8 @@ const Resume: React.FC = () => {
         </div>
         <div className="right-column">
           <iframe
-            title="TJ Klint Resume"
-            src="https://drive.google.com/file/d/1lu80YAIwnfPQ4X3biBm__4uldH7Pw7cV/preview"
+            title="Nevil Savaliya Resume"
+            src="https://drive.google.com/file/d/1hGbaXKftly8DyAsANuyfDZ-C26zHLOwB/preview"
             allow="autoplay"
           ></iframe>
         </div>
