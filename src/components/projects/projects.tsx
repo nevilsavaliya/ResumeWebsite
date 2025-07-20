@@ -273,7 +273,7 @@ const Projects: React.FC = () => {
             <a href="https://github.com/nevilsavaliya/ResumeWebsite" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
-            <a href="https://tjklint.com" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" onClick={handleComingSoonClick} rel="noopener noreferrer">
               <FaGlobe /> Try it Out
             </a>
           </div>
