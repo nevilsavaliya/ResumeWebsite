@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
       <div className="right-align social-icons">
         <a href="https://github.com/nevilsavaliya" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
         <a href="https://www.linkedin.com/in/nevil-savaliya-4a6b2225a/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://nevil.engineer" target="_blank" rel="noopener noreferrer"><FaGlobe /></a>
+        <a href="https://resume-website-ruby-six.vercel.app/" target="_blank" rel="noopener noreferrer"><FaGlobe /></a>
           <a href="https://leetcode.com/u/nevilsavaliya/" target="_blank" rel="noopener noreferrer"><FaCode /></a>
       </div>
     </footer>
