@@ -20,8 +20,7 @@ const About: React.FC = () => {
         <div className="about-text">
         <h2 className="about-title">About Me</h2>
           <p>
-            Hello! My name is <span className="purple-text">Nevil Savaliya</span>, I'm a passionate developer with a love for coding and technology. Most recently, I am working as a <span className="purple-text">Software Developer at CSE </span>
-            (Communications Security Establishment) and previously a Software Developer at Bell.
+            Hello! My name is <span className="purple-text">Nevil Savaliya</span>, I'm a passionate developer with a love for coding and technology.
           </p>
           <p>
             I'm currently <span className="purple-text"> studying at Pes University. </span>
